@@ -1,0 +1,52 @@
+:root {
+  --timer: 0.5s;
+  --opacity: 0.1;
+}
+
+.circle {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid turquoise;
+  transition: background-color 0.1s ease-in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  animation: 5s fadeIn infinite forwards;
+  animation-delay: var(--timer);
+  /* box-shadow: inset 0px 0px 0px #000; */
+}
+
+.circle:hover {
+  /* background-color: transparent; */
+  background-color: turquoise;
+  opacity: 1;
+  /* transform: rotate3d(1, 1, 1, 360deg); */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 200px;
+  left: 750px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: var(--opacity);
+  }
+}
+
+@keyframes rotate {
+  100% {
+  }
+}

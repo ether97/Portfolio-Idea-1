@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
+
+* {
+  font-family: "Source Code Pro", monospace;
+}
+
+h1 {
+  color: white;
+
+  position: absolute;
+  top: 350px;
+  left: 300px;
+  /* font-size: 3em; */
+  margin: 0px;
+  padding: 0px;
+  /* line-height: 60px; */
+  font-size: 3em;
+}
+
+span {
+  color: turquoise;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+h2 {
+  color: white;
+  position: absolute;
+  top: 500px;
+  left: 300px;
+  font-size: 3em;
+}
